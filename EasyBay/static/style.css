@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#content, #alert-box{
+    width: 1150px;
+    margin: 0px 150px 0px 150px;
+    height: fit-content;
+    font-family: serif;
+}
+#top-bar{
+    background-color: aliceblue;
+    width: inherit;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#search-bar{
+    width: 800px;
+    height: 30px;
+    border-radius: 100px 100px;
+    text-indent: 10px;
+}
+
+#search-icon{
+    height: 20px;
+    position: relative;
+    right: 30px;
+}
+
+#sign-in{
+    margin-right: 25px;
+}
+#logo{
+    background-color: lightseagreen;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 10px 10px;
+}
+
+h1{
+    font-weight: 500;
+    margin-right: 30px;
+}
+#shopping-cart{
+    height: 40px;
+}
+.option{
+    font-size: 15px;
+}
+
+#nav-bar{
+    background-color: beige;
+    width: inherit;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px black solid;
+}
+
+h2{
+    padding-top: 30px;
+    padding-bottom: 35px;
+    text-align: center;
+    font-size: 50px;
+    font-weight:lighter
+}
+#main-content{
+    width: inherit;
+    height: fit-content;
+}
+#top-main{
+    width: inherit;
+    height: 325px;
+    display: flex;
+}
+
+#discover{
+    background-color: lightseagreen;
+    color: white;
+    height: inherit;
+    width: 350px;
+    display: flex;
+    font-size: 35px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.disc{
+    width: 230px;
+    height: 170px;
+    margin-top: 40px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.disc2{
+    height: fit-content;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#arrow{
+    height: 35px;
+    line-height: inherit;
+}
+
+.succulents{
+    width: 400px;
+}
+
+#aloe-main{
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+}
+#aloe{
+    height: 200px;
+    width: 380px;
+}
+
+.aloe{
+    background-color: lightseagreen;
+    height: inherit;
+    height: 100px;
+    width: 380px;
+    margin-top: 21px;
+    text-indent: 30px;
+    display: flex;
+}
+
+#soothing{
+    padding-top: 40px;
+    font-size: 20px;
+    color: white;
+}
+
+#arrow-small{
+    margin-top: 42px;
+    margin-left: 3px;
+    height: 20px;
+}
+
+#bottom{
+    background-color: aquamarine;
+    margin-top: 20px;
+    width: inherit;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.bottom-content{
+    margin-top: 20px;
+}
+
+.plant{
+    height:140px;
+    border-radius: 70px 70px;
+}
+
+#alert-box{
+    background-color: white;
+    position: absolute;
+    top: 650px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    border: 2px black solid;
+}
+
+#accept{
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+    border: 2px black solid;
+    background-color: lightseagreen;
+    color: white;
+    box-shadow: 5px 5px black;
+}
